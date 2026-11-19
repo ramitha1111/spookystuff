@@ -3,6 +3,7 @@ name: CI
 #on: [push]
 
 on:
+  workflow_dispatch:
   # Trigger the workflow on push or pull request,
   # but only for the master branch
   push:
